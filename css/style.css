@@ -9796,8 +9796,7 @@ a {
     color: #000; }
     .site-footer a:hover {
       color: #b17456; }
-  .site-footer .widget {
-    margin-bottom: 30px; }
+  .site-footer .widget {  }
     .site-footer .widget h3, .site-footer .widget .h3 {
       font-size: 16px;
       font-weight: 700;
