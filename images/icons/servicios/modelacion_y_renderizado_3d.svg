@@ -1,0 +1,42 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b17456;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M464.87,517.31h49.85V490.19H464.87Zm4.91-22.21h40v17.31h-40Z"/>
+    <path class="cls-1" d="M521.51,517.31h27.37V490.19H521.51Zm4.9-22.21H544v17.31H526.41Z"/>
+    <path class="cls-1" d="M235.51,489.75a14,14,0,1,0,14.14,14A14.09,14.09,0,0,0,235.51,489.75Zm0,23.1a9.1,9.1,0,1,1,9.23-9.1A9.17,9.17,0,0,1,235.51,512.85Z"/>
+    <path class="cls-1" d="M201.35,496H89a7.79,7.79,0,1,0,0,15.57H201.35a7.79,7.79,0,1,0,0-15.57Zm0,10.66H89a2.88,2.88,0,1,1,0-5.75H201.35a2.88,2.88,0,1,1,0,5.75Z"/>
+    <path class="cls-1" d="M576.37,148.35a8.24,8.24,0,0,0-7.79,7.85v79.1a7.79,7.79,0,1,0,15.57,0V156.2A8.23,8.23,0,0,0,576.37,148.35Zm2.87,87a2.88,2.88,0,1,1-5.75,0V156.2a2.88,2.88,0,1,1,5.75,0Z"/>
+    <rect class="cls-1" x="15.85" y="155.49" width="23.47" height="23.02"/>
+    <rect class="cls-1" x="15.85" y="192.11" width="23.47" height="23.02"/>
+    <rect class="cls-1" x="50.61" y="82.25" width="22.99" height="23.49"/>
+    <rect class="cls-1" x="50.61" y="374.77" width="22.99" height="23.01"/>
+    <rect class="cls-1" x="15.85" y="82.25" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="15.85" y="118.87" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="463.32" y="118.87" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="15.85" y="228.26" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="84.87" y="82.25" width="23.01" height="23.49"/>
+    <rect class="cls-1" x="188.16" y="82.25" width="23.02" height="23.49"/>
+    <rect class="cls-1" x="256.72" y="82.25" width="23.49" height="23.49"/>
+    <rect class="cls-1" x="222.43" y="82.25" width="23.49" height="23.49"/>
+    <path class="cls-1" d="M310.84,271.3A37.44,37.44,0,0,0,348.1,234c0-20.47-16.82-36.82-37.26-36.82S273.56,213.57,273.56,234A37.44,37.44,0,0,0,310.84,271.3Z"/>
+    <rect class="cls-1" x="291.46" y="82.25" width="23.01" height="23.49"/>
+    <path class="cls-1" d="M546.43,150.8H82.51V466.33H546.43Zm-14.3,233.67-.92-1.37L436,237.67,341.27,383.1l-18.94,28.64-53.14-80.91L222.5,402.2l-65.16-99.54L96.81,395.37V165H532.13Z"/>
+    <rect class="cls-1" x="394.76" y="82.25" width="22.99" height="23.49"/>
+    <rect class="cls-1" x="325.74" y="82.25" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="15.85" y="374.77" width="23.47" height="23.01"/>
+    <rect class="cls-1" x="153.88" y="82.25" width="23.02" height="23.49"/>
+    <rect class="cls-1" x="463.32" y="82.25" width="23.47" height="23.49"/>
+    <rect class="cls-1" x="360.01" y="82.25" width="23.49" height="23.49"/>
+    <rect class="cls-1" x="15.85" y="264.91" width="23.47" height="23.47"/>
+    <rect class="cls-1" x="15.85" y="301.53" width="23.47" height="23.47"/>
+    <rect class="cls-1" x="15.85" y="338.15" width="23.47" height="23.01"/>
+    <rect class="cls-1" x="119.14" y="82.25" width="23.49" height="23.49"/>
+    <rect class="cls-1" x="429.04" y="82.25" width="23" height="23.49"/>
+  </g>
+</svg>

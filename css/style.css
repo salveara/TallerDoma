@@ -14563,20 +14563,124 @@ a {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-image: url('../fonts/flaticon/font/icons/envelope.svg');
+  background-image: url('../images/icons/contacto/email.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.phone-call-icon {
+.phone-call-icon {  
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-image: url('../fonts/flaticon/font/icons/phone-call.svg');
+  background-image: url('../images/icons/contacto/phone.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.contact-item {
-  contact-element
+.whatsapp-icon {  
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icons/contacto/whatsapp.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.instagram-icon {  
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icons/contacto/instagram.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.linkedin-icon {  
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icons/contacto/linkedin.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.facebook-icon {  
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icons/contacto/facebook.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.asesoria_integral_de_proyectos-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/asesoria_integral_de_proyectos.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.avaluos_arquitectonicos_y_de_construccion-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/avaluos_arquitectonicos_y_de_construccion.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.calculo_estructural_y_estudio_de_suelos-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/calculo_estructural_y_estudio_de_suelos.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diseño_arquitectonico-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/diseño_arquitectonico.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diseño_interior-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/diseño_interior.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gestion_de_licencias_y_tramites_ante_curaduria-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/gestion_de_licencias_y_tramites_ante_curaduria.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modelacion_y_renderizado_3d-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/modelacion_y_renderizado_3d.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.remodelaciones_y_reformas-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url('../images/icons/servicios/remodelaciones_y_reformas.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
