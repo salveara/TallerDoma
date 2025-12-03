@@ -13471,14 +13471,15 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.hero-2 {
+.hero-2, .hero-2-home {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
 }
 
-.hero-2.overlay:before {
+.hero-2.overlay:before,
+.hero-2-home.overlay:before {
   content: "";
   position: absolute;
   top: 0;
@@ -13489,19 +13490,29 @@ a {
   z-index: 1;
 }
 
-.hero-2>.container {
+.hero-2>.container,
+.hero-2-home>.container {
   position: relative;
   z-index: 2;
 }
 
-.hero-2,
-.hero-2>.container>.row {
+.hero-2-home,
+.hero-2-home>.container>.row {
   height: 100vh;
   min-height: 670px;
 }
 
+.hero-2,
+.hero-2>.container>.row {
+  /* Show hero as half the viewport height instead of full screen */
+  height: 75vh;
+  min-height: 335px;
+}
+
 .hero-2 h1,
-.hero-2 .h1 {
+.hero-2 .h1,
+.hero-2-home h1,
+.hero-2-home .h1 {
   font-size: 50px;
   color: #fff;
   text-transform: uppercase;
@@ -13511,12 +13522,15 @@ a {
 @media (max-width: 767.98px) {
 
   .hero-2 h1,
-  .hero-2 .h1 {
+  .hero-2 .h1,
+  .hero-2-home h1,
+  .hero-2-home .h1 {
     font-size: 30px;
   }
 }
 
-.hero-2 .intro-desc {
+.hero-2 .intro-desc,
+.hero-2-home .intro-desc {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -13524,12 +13538,14 @@ a {
 }
 
 @media (max-width: 767.98px) {
-  .hero-2 .intro-desc {
+  .hero-2 .intro-desc,
+  .hero-2-home .intro-desc{
     left: 20px;
   }
 }
 
-.hero-2 .intro-desc p {
+.hero-2 .intro-desc p,
+.hero-2-home .intro-desc p {
   color: rgba(255, 255, 255, 0.8);
 }
 
