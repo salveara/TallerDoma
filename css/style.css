@@ -12821,10 +12821,11 @@ fieldset:disabled .btn {
 }
 
 .site-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 9;
   width: 100%;
+  background-color: rgba(177, 116, 86, 0.6);
 }
 
 .site-nav {
@@ -14576,8 +14577,8 @@ a {
 
 .email-icon {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   background-image: url('../images/icons/contacto/email.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14585,8 +14586,8 @@ a {
 
 .phone-call-icon {  
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-image: url('../images/icons/contacto/phone.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14597,6 +14598,16 @@ a {
   width: 20px;
   height: 20px;
   background-image: url('../images/icons/contacto/whatsapp.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.whatsapp-icon-white {  
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/icons/contacto/whatsapp.svg');
+  filter: brightness(0) saturate(100%) invert(100%);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -14619,6 +14630,40 @@ a {
   background-repeat: no-repeat;
 }
 
+/* Floating WhatsApp button */
+.floating-whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 56px;
+  height: 56px;
+  background: #b17456;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  text-decoration: none;
+}
+
+.floating-whatsapp .whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
+
+.floating-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 575.98px) {
+  .floating-whatsapp { right: 14px; bottom: 14px; width: 50px; height: 50px; }
+  .floating-whatsapp .whatsapp-icon { width: 20px; height: 20px; }
+}
+
 .facebook-icon {  
   display: inline-block;
   width: 20px;
@@ -14630,8 +14675,8 @@ a {
 
 .asesoria_integral_de_proyectos-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/asesoria_integral_de_proyectos.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14639,8 +14684,8 @@ a {
 
 .avaluos_arquitectonicos_y_de_construccion-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/avaluos_arquitectonicos_y_de_construccion.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14648,8 +14693,8 @@ a {
 
 .calculo_estructural_y_estudio_de_suelos-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/calculo_estructural_y_estudio_de_suelos.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14657,8 +14702,8 @@ a {
 
 .diseño_arquitectonico-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/diseño_arquitectonico.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14666,8 +14711,8 @@ a {
 
 .diseño_interior-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/diseño_interior.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14675,8 +14720,8 @@ a {
 
 .gestion_de_licencias_y_tramites_ante_curaduria-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/gestion_de_licencias_y_tramites_ante_curaduria.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14684,8 +14729,8 @@ a {
 
 .modelacion_y_renderizado_3d-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/modelacion_y_renderizado_3d.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14693,8 +14738,8 @@ a {
 
 .remodelaciones_y_reformas-icon {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-image: url('../images/icons/servicios/remodelaciones_y_reformas.svg');
   background-size: contain;
   background-repeat: no-repeat;
