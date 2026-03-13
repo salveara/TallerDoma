@@ -14577,8 +14577,8 @@ a {
 
 .email-icon {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 45px;
+  height: 45px;
   background-image: url('../images/icons/contacto/email.svg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -14586,8 +14586,8 @@ a {
 
 .phone-call-icon {  
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   background-image: url('../images/icons/contacto/phone.svg');
   background-size: contain;
   background-repeat: no-repeat;
