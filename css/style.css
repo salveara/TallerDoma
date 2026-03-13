@@ -14744,3 +14744,18 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.overlay-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px;
+  font-size: 14px;
+  width: 30px;
+  height: 30px;
+}
+
+.white-div {
+  background-color: white;
+  padding-bottom: 7rem;;
+}
